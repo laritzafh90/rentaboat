@@ -11,10 +11,11 @@ figure{
 header{
     display: flex;
     flex-wrap: wrap;
-    background-image:url(alquiler-barco-motor-barcelona-ski-18-2.jpeg);
+    ackground: linear-gradient(to left, rgba(30, 87, 153, 1) 0%, rgba(89, 148, 202, 1) 62%, rgba(95, 154, 207, 0.7) 68%, rgba(125, 185, 232, 0) 100%);
+}
     align-items:center;
     background-size: cover;
-    block-size: 500px;
+    block-size: 300px;
     
 }
 
