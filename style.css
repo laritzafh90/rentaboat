@@ -1,0 +1,98 @@
+figure>img{
+    width: 95%;
+}
+p{
+    text-align: justify;
+}
+figure{
+    margin: 1%;
+}
+/*HEADER*/
+header{
+    display: flex;
+    flex-wrap: wrap;
+    background-image:url(alquiler-barco-motor-barcelona-ski-18-2.jpeg);
+    align-items:center;
+    background-size: cover;
+    block-size: 500px;
+    
+}
+
+header>figure{
+    border: 1px solid black;
+    flex:2;
+    min-width: 100px;
+}
+header>h1{
+    flex: 7;
+    font-size: 6vw;
+    text-align: center;
+    min-width: 300px;
+}
+
+/*INICIO NAV*/
+nav{
+    
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav>ul{
+    margin-right: 1%;
+}
+
+nav>ul>li{
+    list-style: none;
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+/*FINAL NAV*/
+
+
+/*MAIN*/
+main{
+    border: 1px solid black;
+    padding: 1%;
+    margin-top: 2%;
+}
+main>section{
+    display: flex;
+    flex-wrap: wrap;
+}
+main>section>article{
+    flex: 1;
+    min-width: 400px;
+}
+article>div{
+    display: flex;
+}
+div>figure{
+    flex: 1;
+}
+
+article:first-of-type{
+    margin-right: 5%;
+}
+table{
+    width: 80%;
+}
+th{
+    background-color: grey;
+}
+section>figure{
+    flex: 1;
+    border: 1px solid black;
+    min-width: 150px;
+}
+/*FOOTER*/
+footer{
+    margin-top: 1%;
+    padding: 3%;
+    border: 1px solid black;
+}
+footer>p{
+    text-align: right;
+}
