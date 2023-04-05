@@ -39,7 +39,7 @@ nav{
     justify-content: flex-end;
     flex-wrap: wrap;
     border: 1px solid #e7e7e7;
-    background-color: #195e88;
+    background-color: #bea566;
 }
 
 nav>ul{
@@ -62,7 +62,6 @@ nav>ul>li>a{
 
 /*MAIN*/
 main{
-    border: 1px solid black;
     padding: 1%;
     margin-top: 2%;
 }
@@ -72,16 +71,20 @@ main>section{
 }
 main>section>article{
     flex: 1;
-    min-width: 400px;
+    min-width: 100px;
 }
-article>div{
-    display: flex;
-}
+
 div>figure{
     flex: 1;
 }
 
-article:first-of-type{
+
+article{
+    display: block;
+    background-color: #bea566;
+}
+
+article:first-of-type {
     margin-right: 5%;
 }
 
@@ -91,10 +94,32 @@ section>figure{
     min-width: 150px;
 }
 
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: #195e88;
+}
+
 h3{
     text-align: center;
     text-transform: uppercase;
+    color: white;
 }
+
+section>p{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #195e88;
+    padding: 5%;
+    color: white;
+    font-size: 150%;
+}
+
+
+
+
+
 
 
 
